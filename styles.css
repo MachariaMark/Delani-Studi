@@ -1,0 +1,16 @@
+.d1 {
+    background-image: url(assets/backgrounds/h_img.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    text-align: center;
+    color: azure;
+    margin: 10px;
+    height: 600px;
+    padding: 150px; 
+}
+.d1 p {
+    font-size: 15px;
+}
+.mouse {
+    padding: 80px;
+}
