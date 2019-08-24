@@ -82,7 +82,8 @@ body {
 }
 .row2 {
     position: relative;
-    height: 220px; 
+    height: 220px;
+    border: 4px; 
 }
 .see {
     background: transparent;
