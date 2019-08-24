@@ -39,3 +39,19 @@ body {
     padding: 120px;
     position: relative;
 }
+#WHATWEDO {
+    text-align: center;
+    padding: 35px;
+}
+.ul {
+    display: inline;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    align-content: space-around center;
+}
+.li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 280px;
+}
