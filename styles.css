@@ -99,3 +99,10 @@ textarea {
     color: whitesmoke;
     padding-right: 40px;
 }
+#row3 {
+    margin: 50px;
+}
+td {
+    padding-top: 30px;
+    padding-left: 80px;     
+}
