@@ -74,3 +74,28 @@ body {
     background-size: cover;
     text-align: center; 
 }
+#CONTACTUS {
+    padding: 30px;
+    padding-top:20px; 
+    text-align: center;
+    color:azure; 
+}
+.row2 {
+    position: relative;
+    height: 220px; 
+}
+.see {
+    background: transparent;
+    font-family: 'Nunito', sans-serif;
+    color: azure;
+}
+textarea {
+    background: transparent;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+::placeholder {
+    color: whitesmoke;
+    padding-right: 40px;
+}
