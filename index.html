@@ -10,16 +10,13 @@
     <script src="scripts.js"></script>
     <title>Delani Studio</title>
 </head>
-<body>
-    
+<body> 
     <div class="d1">
-        
         <img src="assets/logo/logo.png" alt="logo" class="logo">
         <h1>WELCOME</h1>
         <h1>TO DELANI STUDIO</h1>
         <p>AMAZING PEOPLE ARE MAKING DESINGS IN A FUN ENVIROMENT</p>
-        <img src="assets/mouse_click.png" alt="mouse_click" class="mouse">
-        
+        <img src="assets/mouse_click.png" alt="mouse_click" class="mouse">    
     </div>
     <div class="d2">
         <h3>ABOUT US</h3>
@@ -34,11 +31,14 @@
         <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
         <p>Based on your requirements, we can provide a complete offering or just the pieces you need.</p>
     </div>
-    <div class="ul">
-        <h3 id="WHATWEDO"><b>WHAT WE DO</b></h3>
-        <div class="li">
-            <img src="assets/services_icons/design_icon.png" id="des" class="img-fluid" alt="DESING ICON">
-            <h6><b>DESIGN</b></h6>
+    <div class="whatwedo">
+        <h3><b>WHAT WE DO</b></h3>
+        <div class="row">
+        <div class="col-md-4">
+            <div id="des">
+                <img src="assets/services_icons/design_icon.png" class="img-fluid" alt="DESING ICON">
+                <h6><b>DESIGN</b></h6>
+            </div>
             <div id="destext">
                 <h6><b>DESIGN</b></h6>
                 <p>
@@ -49,9 +49,11 @@
                 </p>
             </div>
         </div>
-        <div class="li">
-            <img src="assets/services_icons/dev_icon.png" id="dev" class="img-fluid" alt="DEVELOPMENT">
-            <h6><b>DEVOLOPMENT</b></h6>
+        <div class="col-md-4">
+            <div id="dev">
+                <img src="assets/services_icons/dev_icon.png" class="img-fluid" alt="DEVELOPMENT">
+                <h6><b>DEVOLOPMENT</b></h6>
+            </div>
             <div id="devtext">
                 <h6><b>DEVOLOPMENT</b></h6>
                 <p>
@@ -61,9 +63,11 @@
                 </p>
             </div>
         </div>
-        <div class="li">
-            <img src="assets/services_icons/product_icon.png" id="pro" class="img-fluid" alt="PRODUCT MANAGEMENT">
-            <h6><b>PRODUCT MANAGEMENT</b></h6>
+        <div class="col-md-4">
+            <div id="pro">
+                <img src="assets/services_icons/product_icon.png" class="img-fluid" alt="PRODUCT MANAGEMENT">
+                <h6><b>PRODUCT MANAGEMENT</b></h6>
+            </div>
             <div id="protext">
                 <h6><b>PRODUCT MANAGEMENT</b></h6>
                 <P>
@@ -73,9 +77,10 @@
                 </P>
             </div>
         </div>
+        </div>
     </div>
-    <div id="portfolio">
-        <h3 id="p"><b>PORTFOLIO</b></h3>
+    <div class0="portfolio">
+        <h3 id="portfolio"><b>PORTFOLIO</b></h3>
         <div class="row1"> 
             <div class="column">
                 <img src="assets/portfolio/work1.jpg" style="grid-auto-columns:20px">
@@ -95,10 +100,10 @@
         <form>
             <h3 id="CONTACTUS"><b>CONTACT US</b></h3>
             <div class="row2">
-                <div class="col-md-6 col-xs-6">
+                <div class="col-md-6">
                     <input type="text" class="see" placeholder="NAME..." size="50px">
                 </div>
-                <div class="col-md-6 col-xs-6">
+                <div class="col-md-6">
                     <input type="text" class="see" placeholder="EMAIL..." size="50px">
                 </div>
             </div>    
@@ -109,34 +114,54 @@
         <table>
             <tr> 
                 <td>
-                    <img src="assets/social_icons/behance.png" class="img-fluid" alt="behance icon">
+                    <a href="https://www.behance.net" target="_blank">
+                        <img src="assets/social_icons/behance.png" class="img-fluid" alt="behance icon">
+                    </a>
                 </td>
                 <td>
-                    <img src="assets/social_icons/dribble.png" class="img-fluid" alt="dribble icon">
+                    <a href="https://dribbble.com" target="_blank">
+                        <img src="assets/social_icons/dribble.png" class="img-fluid" alt="dribble icon">
+                    </a>
                 </td>
                 <td>
-                    <img src="assets/social_icons/facebook.png" class="img-fluid" alt="facebook icon">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="assets/social_icons/facebook.png" class="img-fluid" alt="facebook icon">
+                    </a>
                 </td>
                 <td>
-                    <img src="assets/social_icons/flickr.png" class="img-fluid" alt="flickr icon">
+                    <a href="https://www.flickr.com" target="_blank">
+                        <img src="assets/social_icons/flickr.png" class="img-fluid" alt="flickr icon">
+                    </a>
                 </td>
                 <td>
-                    <img src="assets/social_icons/g_plus.png" class="img-fluid" alt="g_plus icon">
+                    <a href="https://about.google" target="_blank">
+                        <img src="assets/social_icons/g_plus.png" class="img-fluid" alt="g_plus icon">
+                    </a>
                 </td>
                 <td>
-                    <img src="assets/social_icons/pinterest.png" class="img-fluid" alt="pinterest icon">
+                    <a href="https://www.pinterest.com" target="_blank">
+                        <img src="assets/social_icons/pinterest.png" class="img-fluid" alt="pinterest icon">
+                    </a>
                 </td>
                 <td>
-                    <img src="assets/social_icons/skype.png" class="img-fluid" alt="skype icon">
+                    <a href="https://www.skype.com/en/" target="_blank">
+                        <img src="assets/social_icons/skype.png" class="img-fluid" alt="skype icon">
+                    </a>
                 </td>
                 <td>
-                    <img src="assets/social_icons/stumble_upon.png" class="img-fluid" alt="stumble_upon icon">
+                    <a href="https://www.stumbleupon.com" target="_blank">
+                        <img src="assets/social_icons/stumble_upon.png" class="img-fluid" alt="stumble_upon icon">
+                    </a>                
                 </td>
                 <td>
-                    <img src="assets/social_icons/twitter.png" class="img-fluid" alt="twitter icon">
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="assets/social_icons/twitter.png" class="img-fluid" alt="twitter icon">
+                    </a>
                 </td>
                 <td>
-                    <img src="assets/social_icons/you_tube.png" class="img-fluid" alt="you_tube icon">
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img src="assets/social_icons/you_tube.png" class="img-fluid" alt="you_tube icon">
+                    </a>
                 </td>
             </tr>
         </table>
